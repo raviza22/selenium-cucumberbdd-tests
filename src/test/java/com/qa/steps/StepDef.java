@@ -14,7 +14,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.List;
 
-public class Steps extends TestBase {
+public class StepDef extends TestBase {
 
     @Before
     public void setup() {
@@ -39,7 +39,7 @@ public class Steps extends TestBase {
     }
     */
 
-    @When("I enter valid {string} and {string}")
+    @When("I enter valid credentials {string} and {string}")
     public void i_enter_valid_credentials(String username, String password) {
         driver.findElement(By.name("username")).sendKeys(username);
         driver.findElement(By.name("password")).sendKeys(password);

@@ -9,7 +9,7 @@ Feature: Login functionality
 
   Scenario Outline: Login Successfully
     Given I am on the login page
-    When I enter valid <username> and <password>
+    When I enter valid credentials <username> and <password>
     Then I should be taken to Account page
     Examples:
       | username | password |
