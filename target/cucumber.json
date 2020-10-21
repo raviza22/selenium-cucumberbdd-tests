@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-21T04:45:23.944Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1534872000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.steps.Steps.setup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Login Successfully",
+        "description": "",
+        "id": "login-functionality;login-successfully;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 95551000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.steps.Steps.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2336847000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I am on the login page",
+            "match": {
+              "location": "com.qa.steps.Steps.i_am_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 241544000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter valid \"user@phptravels.com\" and \"demouser\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user@phptravels.com\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"demouser\"",
+                  "offset": 40
+                }
+              ],
+              "location": "com.qa.steps.Steps.i_enter_valid_credentials(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4995893000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should be taken to Account page",
+            "match": {
+              "location": "com.qa.steps.Steps.i_should_be_taken_to_account_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login functionality",
+    "description": "  In order to use online travel portal\n  As a valid user\n  I want to login successfully",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Login.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,9 @@
+/.idea
+Selenium-CucumberBDD.iml
+target/classes
+target/generated-test-sources/
+target/test-classes/
+target/maven-archiver/
+target/maven-status/
+target/surefire-reports/
+target/Selenium-CucumberBDD-1.0-SNAPSHOT.jar
